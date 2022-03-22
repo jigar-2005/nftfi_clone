@@ -1,0 +1,21 @@
+@media (max-width: 1399px) {
+  .main_container_style{
+    width: 630px;
+    margin-top: 60px;
+  }
+}
+@media (min-width: 1400px) {
+  .main_container_style{
+      padding-left: 85px;
+      padding-right: 100px;
+      margin-top: 116px;
+  }
+}
+@media (max-width: 660px) {
+  .main_container_style{
+    width: 100%;
+  }
+}
+
+
+

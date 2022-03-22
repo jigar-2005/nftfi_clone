@@ -1,0 +1,113 @@
+.about_dropdown_btn {
+  background-color: transparent;
+  color: #2c81a5;
+  padding: 16px;
+  font-size: 14.5px;
+  border: none;
+  padding-left: 43.5px;
+  padding-right: 43.5px;
+  border-bottom: 3px solid #36A3D0;
+}
+.about_dropdown {
+  position: relative;
+  display: inline-block;
+}
+.about_dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #36A3D0;
+  min-width: 128px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.about_dropdown_content .about_dropdown_link {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.about_dropdown:hover .about_dropdown_content {display: block;}
+.borrow_dropdown_btn {
+  background-color: transparent;
+  color: #7554d8;
+  padding: 16px;
+  font-size: 14.5px;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 3px solid #7D5FD7;
+}
+.borrow_dropdown {
+  position: relative;
+  display: inline-block;
+}
+.borrow_dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #7D5FD7;
+  min-width: 128px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.borrow_dropdown_content .borrow_dropdown_link {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.borrow_dropdown:hover .borrow_dropdown_content {display: block;}
+.lend_dropdown_btn {
+  background-color: transparent;
+  color: #bd2b80;
+  padding: 16px;
+  font-size: 14.5px;
+  border: none;
+  padding-left: 48px;
+  padding-right: 48px;
+  border-bottom: 3px solid #CF2E8C;
+}
+.lend_dropdown {
+  position: relative;
+  display: inline-block;
+}
+.lend_dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #CF2E8C;
+  min-width: 128px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.lend_dropdown_content .lend_dropdown_link {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.lend_dropdown:hover .lend_dropdown_content {display: block;}
+@media (max-width: 1399px) {
+  #header_option_before_xxl_scrn{
+    display: none;
+  }
+  .header_navbar{
+      height: 60px;
+  }
+  .header_logo{
+    margin-top: 8px;
+  }
+  .header_navbar_container{
+    width: 630px;
+  }
+}
+@media (min-width: 1400px) {
+    .header_navbar{
+        height: 116px;
+    }
+    .header_navbar_container{
+        padding-left: 85px;
+        padding-right: 100px;
+    }
+}
+
+
+
