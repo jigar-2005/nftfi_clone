@@ -19,7 +19,7 @@ function RightSideOptions() {
             </div>
             <div className="row">
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -28,7 +28,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -37,7 +37,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -46,7 +46,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -55,7 +55,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -64,7 +64,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -73,7 +73,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -82,7 +82,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -91,7 +91,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -100,7 +100,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -109,7 +109,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>
@@ -118,7 +118,7 @@ function RightSideOptions() {
                     </div></Link>
                 </div>
                 <div className="col-6 col-md-3 p-2">
-                    <Link to="/" style={{textDecoration:"none"}}><div class="card">
+                    <Link to="/lend/assets/details" style={{textDecoration:"none"}}><div class="card">
                         <img src="https://lh3.googleusercontent.com/-pqfdUtFzviCI7XrGBms5pWZ5VO1EBPHTomXHGT5z9QvkSFiV5RxCnPmDKv9hcP3zeptB_9Dt9k4z-zXtVph66tmGL_sy9apJrHrl9E" alt="#" style={{ width: "100%", height: "200px" }} />
                         <div class="card-body text-center" style={{background:"#221E37"}}>
                             <p style={{fontSize:"12px", color:"#CF2E8C"}}>Capsule</p>

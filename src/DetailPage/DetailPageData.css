@@ -1,0 +1,23 @@
+@media (max-width: 1399px) {
+    .main_container_detail_data{
+      width: 630px;
+    }
+    .extra_tab{
+        display: none;
+    }
+  }
+  @media (min-width: 1400px) {
+    .main_container_detail_data{
+        padding-left: 85px;
+        padding-right: 100px;
+    }
+  }
+  @media (max-width: 660px) {
+    .main_container_detail_data{
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
