@@ -32,19 +32,19 @@ function Header() {
                                     <div className="lend_dropdown">
                                         <button className="lend_dropdown_btn" style={{ fontWeight: "500" }}>Lend</button>
                                         <div className="lend_dropdown_content text-center">
-                                            <a href="#" className='lend_dropdown_link'>Link 1</a>
-                                            <a href="#" className='lend_dropdown_link'>Link 2</a>
-                                            <a href="#" className='lend_dropdown_link'>Link 3</a>
+                                            <Link to='/' className='lend_dropdown_link'>Link 1</Link>
+                                            <Link to='/' className='lend_dropdown_link'>Link 2</Link>
+                                            <Link to='/' className='lend_dropdown_link'>Link 3</Link>
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to='/' style={{ textDecoration: "none", paddingLeft: "20px" }}>
+                                <Link to='/borrow/assets' style={{ textDecoration: "none", paddingLeft: "20px" }}>
                                     <div className="borrow_dropdown">
                                         <button className="borrow_dropdown_btn" style={{ fontWeight: "500" }}>Borrow</button>
                                         <div className="borrow_dropdown_content text-center">
-                                            <a href="#" className='borrow_dropdown_link'>Link 1</a>
-                                            <a href="#" className='borrow_dropdown_link'>Link 2</a>
-                                            <a href="#" className='borrow_dropdown_link'>Link 3</a>
+                                            <Link to='/' className='borrow_dropdown_link'>Link 1</Link>
+                                            <Link to='/' className='borrow_dropdown_link'>Link 2</Link>
+                                            <Link to='/' className='borrow_dropdown_link'>Link 3</Link>
                                         </div>
                                     </div>
                                 </Link>
@@ -52,9 +52,9 @@ function Header() {
                                     <div className="about_dropdown">
                                         <button className="about_dropdown_btn" style={{ fontWeight: "500" }}>About</button>
                                         <div className="about_dropdown_content text-center">
-                                            <a href="#" className='about_dropdown_link'>Link 1</a>
-                                            <a href="#" className='about_dropdown_link'>Link 2</a>
-                                            <a href="#" className='about_dropdown_link'>Link 3</a>
+                                            <Link to='/' className='about_dropdown_link'>Link 1</Link>
+                                            <Link to='/' className='about_dropdown_link'>Link 2</Link>
+                                            <Link to='/' className='about_dropdown_link'>Link 3</Link>
                                         </div>
                                     </div>
                                 </Link>

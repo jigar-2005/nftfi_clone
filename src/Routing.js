@@ -8,6 +8,10 @@ import Header from "./Header/Header";
 import Collateral from "./MainContainer/Collateral";
 import Loans from "./MainContainer/Loans";
 import Offers from "./MainContainer/Offers";
+import BorrowAfterPageHeader from "./AfterPageHeader/BorrowAfterPageHeader";
+import BorrowAssets from "./MainContainer/BorrowAssets";
+import BorrowDetailDataAfterHeader from "./DetailPage/BorrowDetailDataAfterHeader";
+import BorrowDetailPageData from "./DetailPage/BorrowDetailPageData";
 
 function Routing() {
     return (
@@ -40,6 +44,36 @@ function Routing() {
                 <Header />
                 <AfterPageHeader page="lend_offers" />
                 <Offers />
+                <Footer />
+            </Route>
+            <Route exact path="/borrow/assets">
+                <Header />
+                <BorrowAfterPageHeader page="borrow_assets" />
+                <BorrowAssets />
+                <Footer />
+            </Route>
+            <Route exact path="/borrow/loans">
+                <Header />
+                <BorrowAfterPageHeader page="borrow_loans" />
+                <Loans />
+                <Footer />
+            </Route>
+            <Route exact path="/borrow/offers">
+                <Header />
+                <BorrowAfterPageHeader page="borrow_offers" />
+                <Offers />
+                <Footer />
+            </Route>
+            <Route exact path="/borrow/assets/details">
+                <Header />
+                <BorrowDetailDataAfterHeader page="borrow_assets_details" />
+                <BorrowDetailPageData />
+                <Footer />
+            </Route>
+            <Route exact path="/borrow/assets/details/loans">
+                <Header />
+                <BorrowDetailDataAfterHeader page="borrow_assets_details" />
+                <LoanDetailPage />
                 <Footer />
             </Route>
         </Router>
