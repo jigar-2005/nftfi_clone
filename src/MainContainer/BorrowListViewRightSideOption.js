@@ -3,7 +3,7 @@ import BorrowRightSideOptions from './BorrowRightSideOptions';
 import './ListView.css'
 import RightSideOptions from './RightSideOptions';
 
-function ListViewRightSideOption() {
+function BorrowListViewRightSideOption() {
     return (
         <>
             <div className="list_view_before_xxl_scrn">
@@ -125,4 +125,4 @@ function ListViewRightSideOption() {
     );
 }
 
-export default ListViewRightSideOption;
+export default BorrowListViewRightSideOption;

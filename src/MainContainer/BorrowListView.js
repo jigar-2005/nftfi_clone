@@ -7,6 +7,7 @@ import RightSideOptions from './RightSideOptions';
 import './MainContainer.css'
 import BorrowRightSideOptions from './BorrowRightSideOptions';
 import BorrowLeftSideOptions from './BorrowLeftSideOptions';
+import BorrowListViewRightSideOption from './BorrowListViewRightSideOption';
 
 function BorrowListView() {
     return (
@@ -20,7 +21,7 @@ function BorrowListView() {
                                     <BorrowLeftSideOptions />
                                 </div>
                                 <div className="collateral_right col-12 col-xxl-9">
-                                    <BorrowRightSideOptions />
+                                    <BorrowListViewRightSideOption />
                                 </div>
                             </div>
                         </div>
