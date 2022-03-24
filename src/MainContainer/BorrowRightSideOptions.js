@@ -12,8 +12,8 @@ function BorrowRightSideOptions() {
             <div style={{ background: "#221E37", width: "100%", height: "55px", marginTop: "10px" }}>
                 <h6 className='text-light p-2'>Search Results
                     <span style={{ float: "right", border: "1px solid #16152C" }}>
-                        <button type="button" class="btn px-2" style={{ background: "#16152C", fontSize: "12px", color: "white" }}>list view</button>
-                        <button type="button" class="btn px-2" style={{ background: "#221E37", fontSize: "12px", color: "white" }}>card view</button>
+                    <Link to="/borrow/assets/listview" type="button" class="btn px-2" style={{ background: "#16152C", fontSize: "12px", color: "white" }}>list view</Link>
+                        <Link to="/borrow/assets" type="button" class="btn px-2" style={{ background: "#221E37", fontSize: "12px", color: "white" }}>card view</Link>
                     </span>
                 </h6>
             </div>

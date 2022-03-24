@@ -12,6 +12,8 @@ import BorrowAfterPageHeader from "./AfterPageHeader/BorrowAfterPageHeader";
 import BorrowAssets from "./MainContainer/BorrowAssets";
 import BorrowDetailDataAfterHeader from "./DetailPage/BorrowDetailDataAfterHeader";
 import BorrowDetailPageData from "./DetailPage/BorrowDetailPageData";
+import ListView from "./MainContainer/ListView";
+import BorrowListView from "./MainContainer/BorrowListView";
 
 function Routing() {
     return (
@@ -20,6 +22,12 @@ function Routing() {
                 <Header />
                 <AfterPageHeader page="lend_assets" />
                 <Collateral />
+                <Footer />
+            </Route>
+            <Route exact path="/list_view">
+                <Header />
+                <AfterPageHeader page="lend_assets" />
+                <ListView />
                 <Footer />
             </Route>
             <Route exact path="/lend/assets/details">
@@ -50,6 +58,12 @@ function Routing() {
                 <Header />
                 <BorrowAfterPageHeader page="borrow_assets" />
                 <BorrowAssets />
+                <Footer />
+            </Route>
+            <Route exact path="/borrow/assets/listview">
+                <Header />
+                <BorrowAfterPageHeader page="borrow_assets" />
+                <BorrowListView />
                 <Footer />
             </Route>
             <Route exact path="/borrow/loans">

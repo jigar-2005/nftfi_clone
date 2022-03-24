@@ -1,0 +1,11 @@
+.list_view_after_xxl_scrn{
+    display: none;
+}
+@media (max-width: 1399px) {
+    .list_view_before_xxl_scrn{
+    display: none;
+}
+.list_view_after_xxl_scrn{
+    display: block;
+}
+  }
